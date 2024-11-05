@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://images\\bg_appareil_photo.jpg",
+            "request": "launch",
+            "url": "http://images\\bg_appareil_photo.jpg"
+        }
+    ]
+}
