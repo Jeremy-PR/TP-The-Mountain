@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <header class="bg-hero-img bg-cover h-screen">
+    <header class="bg-hero-img bg-cover h-screen px-5">
       <nav class="flex justify-between items-center pt-2 pb-7">
-        <div class="flex">
+        <div class="flex items-center ">
           <img class="w-15 h-10" src="./images/your_logo.png" alt="logo" />
-          <p>LOGO</p>
+          <p class="text-2xl">LOGO</p>
         </div>
 
         <img
@@ -20,17 +20,17 @@
           alt="menu burger"
         />
       </nav>
-      <div class="flex flex-col text-center gap-4">
+      <div class="flex flex-col text-center gap-6">
         <h1 class="text-center text-white text-4xl pb-4">
           In the hall of the <span class="font-extrabold">Mountain King</span>
         </h1>
-        <p class="flex text-center text-white">
+        <p class="flex text-center px-8 text-white">
           This is a simple hero unit, a simple jumbotron-style component for
           calling extra attention to featured content or information.
         </p>
-        <div class="flex flex-col items-center text-white">
-          <a href="#" class="bg-sky-500 p-5"> Learn more</a>
-          <a href="#" class="bg-red-700 p-5"> Download</a>
+        <div class= " flex flex-col items-center text-white md:inline-block">
+          <a href="#" class="bg-sky-500 w-40 py-2"> Learn more</a>
+          <a href="#" class="bg-red-700 w-36 py-2"> Download</a>
         </div>
       </div>
     </header>
@@ -88,7 +88,7 @@
       </section>
 
       <section class="bg-nuage-img bg-cover px-5 text-white">
-        <article class="bg-blue-300 opacity-60">
+        <article class="bg-blue-300 opacity-60 px-5">
           <div class="flex flex-col text-left gap-6">
             <h3 class="text-3xl">Ligula Mattis Ornare Ultricies</h3>
             <p class="text-xl">Pellentesque Cursus Amet Parturient Etiam</p>
@@ -100,12 +100,12 @@
             </p>
           </div>
           <div class="flex flex-col items-center pt-6 pb-5 gap-6">
-            <div class="border-2 border-white">
+            <div class="border-2 border-white p-4">
               <p>Ultricies</p>
               <p>23,578</p>
             </div>
 
-            <div class="border-2 border-white">
+            <div class="border-2 border-white p-4">
               <p>Fermentum</p>
               <p>12,702</p>
             </div>
@@ -131,20 +131,18 @@
           rhoncus purus. Curabitur dictum sapien ante, in efficitur arcu
           condimentum elementum. Nulla vestibulum maximus orci ac dapibus.
         </p>
-        <a href="#" class="bg-rose-500 text-white text-xl"> Take a Look </a>
+        <a href="#" class="bg-rose-500  text-white text-xl"> Take a Look </a>
         <img src="./images/1200.jpeg" alt="photo d'une fille en velo" />
       </section>
 
       <section class="bg-photo-img bg-cover px-5">
-        <div class="bg-blue-300 opacity-60 text-white pt-6 pb-4">
+        <div class="bg-blue-300 opacity-60 text-white pt-6 pb-4 px-5 flex flex-col gap-5">
           <p>
             Integer rutrum facilisis orci ut faucibus. Vestibulum vitae eleifend
             velit. Class aptent taciti sociosqu ad litora torquent per conubia
-            nostra, per inceptos himenaeos. Ut vulputate turpis ut malesuada
-            commodo. Nam blandit accumsan odio, sed sollicitudin justo facilisis
-            id. Suspendisse ultrices luctus enim, vel ornare sapien congue eu
+            nostra, per inceptos himenaeos. 
           </p>
-          <p>
+          <p class="text-sm">
             Nullam semper vitae turpis sit amet fringilla. Mauris iaculis sem
             quis sapien laoreet tincidunt. Nulla eu blandit ligula. Praesent eu
             quam at risus accumsan semper vitae laoreet justo. Nulla sed
@@ -188,8 +186,25 @@
           <a href="#" class="bg-white text-gray-200  pl-0.5 py-0.5  pr-20 "> Your email here</a>
           <a href="#" class="bg-rose-500 text-white"> Submit Newsletter</a>
         </div>
-    
       </section>
     </main>
+    <footer class="bg-slate-800 px-5 flex flex-col gap-8 pt-8 pb-6">
+     <h5 class="text-white text-4xl"> Your logo </h5>
+     <div class="flex">
+      <img src="./images/copyright-regular.svg" alt="copyright" width="20px">
+<p class="text-white">2016 Your company. Designed and Developped by <span class="text-sky-700"> The maitre jet d'ail</span></p>
+     </div>
+    <div class="flex justify-end gap-3 ">
+      <img src="./images/facebook-f-brands-solid.svg" alt="facebook" width="12px">
+      <img src="./images/twitter-brands-solid.svg" alt="twitter" width="12px">
+      <img src="./images/tumblr-brands-solid.svg" alt="tumblr" width="12px">
+      <img src="./images/github-alt-brands-solid.svg" alt="github" width="12px">
+      <img src="./images/basketball-solid.svg" alt="dribble" width="12px">
+     
+    </div>
+     
+  
+
+    </footer>
   </body>
 </html>
